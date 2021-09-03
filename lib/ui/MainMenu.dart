@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Calculator.dart';
+import 'package:flutter_application_1/RestaurantList.dart';
 
 class MainMenu extends StatefulWidget {
   const MainMenu({Key? key}) : super(key: key);
@@ -34,9 +35,7 @@ class _MainMenuState extends State<MainMenu> {
         body: const TabBarView(
           children: <Widget>[
             Calculator(),
-            Center(
-              child: Text("It's rainy here"),
-            ),
+            RestaurantList(),
             Center(
               child: Text("It's sunny here"),
             ),
